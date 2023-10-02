@@ -1,0 +1,22 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+}
+#product-overview {
+  background: #ff1b68;
+  padding: 20px;
+  border: solid black 2px;
+  margin: 20px;
+}
+h1 {
+  color: white;
+  font-family: "Source Code Pro", monospace;
+}
+.section-title {
+  color: aquamarine;
+  font-family: inherit;
+}
+#product-overview h1 {
+  color: antiquewhite;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

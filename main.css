@@ -1,4 +1,31 @@
-section {
-  background: #ff1b68;
-  font-family: 'Source Code Pro', monospace;
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
+header > h1 {
+  margin: auto;
+}
+main {
+  padding-top: 20px;
+}
+nav {
+  width: 25%;
+}
+article{
+  width: 75%;
+  height: 83vh;
+  overflow: auto;
+}
+ul {
+  padding-inline-start: 20px;
+}
+/* article{
+  background-color: #fed9ff;
+  height: 150px;
+  overflow: auto;
+  text-align: center;
+  padding: 20px;
+} */
