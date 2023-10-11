@@ -14,13 +14,16 @@ main {
 nav {
   width: 25%;
 }
-article{
+#MainArticle{
   width: 75%;
   height: 83vh;
   overflow: auto;
 }
 ul {
   padding-inline-start: 20px;
+}
+#CSSParaStyle{
+  background-color: antiquewhite;
 }
 /* article{
   background-color: #fed9ff;

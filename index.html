@@ -12,6 +12,17 @@
     <link rel="stylesheet" href="main.css" />
 
     <title>The-CSS-Project</title>
+    <style>
+      #ParaStyle {
+        background: cyan;
+      }
+      h3 {
+        text-decoration: underline;
+      }
+      code {
+        background: lightgrey;
+      }
+    </style>
   </head>
   <body style="padding: 10px">
     <header>
@@ -22,149 +33,139 @@
       <nav aria-label="Table of Contents">
         <h2>Table of Contents</h2>
         <ol>
-          <li><a href="#Adding CSS">Adding CSS</a></li>
+          <li><a href="#AddingCSS">Adding CSS</a></li>
           <ul>
-            <li><a href="#test">inline</a></li>
+            <li><a href="#InlineStyles">inline</a></li>
             <li>
-              <a href="">using <code>&lt;style&gt;</code> tag</a>
+              <a href="#StyleTag">using <code>&lt;style&gt;</code> tag</a>
             </li>
-            <li><a href="">using .css file</a></li>
+            <li>
+              <a href="#CSSFile"
+                >using <em><b>.css</b></em> file</a
+              >
+            </li>
           </ul>
         </ol>
       </nav>
-      <article>
-        <h2>Adding CSS</h2>
-        <section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minus
-            numquam sint architecto sit! Officia, vero dolorum? Consectetur est
-            id repellendus maiores iste, animi odio hic officia molestiae libero
-            ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-            rerum, facilis eum ratione, vero porro eos laudantium quo quibusdam
-            quisquam perferendis aperiam provident aliquam quas iure cupiditate.
-            Fuga, voluptas labore. Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Accusantium cumque tempore voluptatem reiciendis
-            qui alias dolorem officiis reprehenderit magnam cupiditate
-            blanditiis culpa natus pariatur nemo a aspernatur, at corrupti
-            veritatis? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Consequatur quia esse, doloremque consequuntur repellendus cumque,
-            temporibus optio impedit tempora molestiae deserunt magnam debitis
-            necessitatibus id accusamus ex eveniet quos voluptatum. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Sunt, doloribus neque
-            veritatis minima laboriosam aliquid facilis et porro quibusdam ad
-            est aperiam veniam id quas eos laborum ex autem atque?
-          </p>
-        </section>
-        <h2>Adding CSS</h2>
-        <section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minus
-            numquam sint architecto sit! Officia, vero dolorum? Consectetur est
-            id repellendus maiores iste, animi odio hic officia molestiae libero
-            ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-            rerum, facilis eum ratione, vero porro eos laudantium quo quibusdam
-            quisquam perferendis aperiam provident aliquam quas iure cupiditate.
-            Fuga, voluptas labore. Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Accusantium cumque tempore voluptatem reiciendis
-            qui alias dolorem officiis reprehenderit magnam cupiditate
-            blanditiis culpa natus pariatur nemo a aspernatur, at corrupti
-            veritatis? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Consequatur quia esse, doloremque consequuntur repellendus cumque,
-            temporibus optio impedit tempora molestiae deserunt magnam debitis
-            necessitatibus id accusamus ex eveniet quos voluptatum. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Sunt, doloribus neque
-            veritatis minima laboriosam aliquid facilis et porro quibusdam ad
-            est aperiam veniam id quas eos laborum ex autem atque?
-          </p>
-        </section>
-        <h2>Adding CSS</h2>
-        <section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minus
-            numquam sint architecto sit! Officia, vero dolorum? Consectetur est
-            id repellendus maiores iste, animi odio hic officia molestiae libero
-            ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-            rerum, facilis eum ratione, vero porro eos laudantium quo quibusdam
-            quisquam perferendis aperiam provident aliquam quas iure cupiditate.
-            Fuga, voluptas labore. Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Accusantium cumque tempore voluptatem reiciendis
-            qui alias dolorem officiis reprehenderit magnam cupiditate
-            blanditiis culpa natus pariatur nemo a aspernatur, at corrupti
-            veritatis? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Consequatur quia esse, doloremque consequuntur repellendus cumque,
-            temporibus optio impedit tempora molestiae deserunt magnam debitis
-            necessitatibus id accusamus ex eveniet quos voluptatum. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Sunt, doloribus neque
-            veritatis minima laboriosam aliquid facilis et porro quibusdam ad
-            est aperiam veniam id quas eos laborum ex autem atque?
-          </p>
-        </section>
-        <h2>Adding CSS</h2>
-        <section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minus
-            numquam sint architecto sit! Officia, vero dolorum? Consectetur est
-            id repellendus maiores iste, animi odio hic officia molestiae libero
-            ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-            rerum, facilis eum ratione, vero porro eos laudantium quo quibusdam
-            quisquam perferendis aperiam provident aliquam quas iure cupiditate.
-            Fuga, voluptas labore. Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Accusantium cumque tempore voluptatem reiciendis
-            qui alias dolorem officiis reprehenderit magnam cupiditate
-            blanditiis culpa natus pariatur nemo a aspernatur, at corrupti
-            veritatis? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Consequatur quia esse, doloremque consequuntur repellendus cumque,
-            temporibus optio impedit tempora molestiae deserunt magnam debitis
-            necessitatibus id accusamus ex eveniet quos voluptatum. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Sunt, doloribus neque
-            veritatis minima laboriosam aliquid facilis et porro quibusdam ad
-            est aperiam veniam id quas eos laborum ex autem atque?
-          </p>
-        </section>
-        <h2>Adding CSS</h2>
-        <section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minus
-            numquam sint architecto sit! Officia, vero dolorum? Consectetur est
-            id repellendus maiores iste, animi odio hic officia molestiae libero
-            ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-            rerum, facilis eum ratione, vero porro eos laudantium quo quibusdam
-            quisquam perferendis aperiam provident aliquam quas iure cupiditate.
-            Fuga, voluptas labore. Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Accusantium cumque tempore voluptatem reiciendis
-            qui alias dolorem officiis reprehenderit magnam cupiditate
-            blanditiis culpa natus pariatur nemo a aspernatur, at corrupti
-            veritatis? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Consequatur quia esse, doloremque consequuntur repellendus cumque,
-            temporibus optio impedit tempora molestiae deserunt magnam debitis
-            necessitatibus id accusamus ex eveniet quos voluptatum. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Sunt, doloribus neque
-            veritatis minima laboriosam aliquid facilis et porro quibusdam ad
-            est aperiam veniam id quas eos laborum ex autem atque?
-          </p>
-        </section>
-        <h2 id="test">Adding CSS</h2>
-        <section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minus
-            numquam sint architecto sit! Officia, vero dolorum? Consectetur est
-            id repellendus maiores iste, animi odio hic officia molestiae libero
-            ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-            rerum, facilis eum ratione, vero porro eos laudantium quo quibusdam
-            quisquam perferendis aperiam provident aliquam quas iure cupiditate.
-            Fuga, voluptas labore. Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Accusantium cumque tempore voluptatem reiciendis
-            qui alias dolorem officiis reprehenderit magnam cupiditate
-            blanditiis culpa natus pariatur nemo a aspernatur, at corrupti
-            veritatis? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Consequatur quia esse, doloremque consequuntur repellendus cumque,
-            temporibus optio impedit tempora molestiae deserunt magnam debitis
-            necessitatibus id accusamus ex eveniet quos voluptatum. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Sunt, doloribus neque
-            veritatis minima laboriosam aliquid facilis et porro quibusdam ad
-            est aperiam veniam id quas eos laborum ex autem atque?
-          </p>
-        </section>
+      <article id="MainArticle">
+        <article>
+          <h2 id="AddingCSS">Adding CSS</h2>
+          <section>
+            <h3 id="InlineStyles"><u>Inline Styles</u></h3>
+            <p style="background: red">
+              This text has a background of <b>red</b> color by using inline
+              style attribute.
+            </p>
+            <p>
+              Code:
+              <code>
+                &lt;p style="background: red"&gt;Some Text&lt;/p&gt;
+              </code>
+            </p>
+          </section>
+          <section>
+            <h3 id="StyleTag">Style Tag</h3>
+            <p id="ParaStyle">
+              This text has a background of <b>cyan</b> color by using
+              <code>&lt;style&gt;</code> tag.
+            </p>
+            <p>
+              Code:
+              <code>
+                <br />
+                &lt;style&gt;<br />
+                &nbsp; #ParaStyle { background: cyan; } <br />&lt;/style&gt;
+              </code>
+            </p>
+          </section>
+          <section>
+            <h3 id="CSSFile">CSS File</h3>
+            <p id="CSSParaStyle">
+              This text has a background of <b>antiquewhite</b> color by using
+              <em><b>.css</b></em> file.
+            </p>
+            <p>
+              Code(.css file):
+              <code>
+                <br />
+                &lt;style&gt;<br />
+                &nbsp; #CSSParaStyle { background: antiquewhite; }
+                <br />&lt;/style&gt;
+              </code>
+            </p>
+          </section>
+        </article>
+        <article>
+          <h2>Adding CSS</h2>
+          <section>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              minus numquam sint architecto sit! Officia, vero dolorum?
+              Consectetur est id repellendus maiores iste, animi odio hic
+              officia molestiae libero ducimus. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Ea rerum, facilis eum ratione, vero
+              porro eos laudantium quo quibusdam quisquam perferendis aperiam
+              provident aliquam quas iure cupiditate. Fuga, voluptas labore.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusantium cumque tempore voluptatem reiciendis qui alias dolorem
+              officiis reprehenderit magnam cupiditate blanditiis culpa natus
+              pariatur nemo a aspernatur, at corrupti veritatis? Lorem ipsum
+              dolor, sit amet consectetur adipisicing elit. Consequatur quia
+              esse, doloremque consequuntur repellendus cumque, temporibus optio
+              impedit tempora molestiae deserunt magnam debitis necessitatibus
+              id accusamus ex eveniet quos voluptatum. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Sunt, doloribus neque veritatis
+              minima laboriosam aliquid facilis et porro quibusdam ad est
+              aperiam veniam id quas eos laborum ex autem atque?
+            </p>
+          </section>
+          <h2>Adding CSS</h2>
+          <section>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              minus numquam sint architecto sit! Officia, vero dolorum?
+              Consectetur est id repellendus maiores iste, animi odio hic
+              officia molestiae libero ducimus. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Ea rerum, facilis eum ratione, vero
+              porro eos laudantium quo quibusdam quisquam perferendis aperiam
+              provident aliquam quas iure cupiditate. Fuga, voluptas labore.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusantium cumque tempore voluptatem reiciendis qui alias dolorem
+              officiis reprehenderit magnam cupiditate blanditiis culpa natus
+              pariatur nemo a aspernatur, at corrupti veritatis? Lorem ipsum
+              dolor, sit amet consectetur adipisicing elit. Consequatur quia
+              esse, doloremque consequuntur repellendus cumque, temporibus optio
+              impedit tempora molestiae deserunt magnam debitis necessitatibus
+              id accusamus ex eveniet quos voluptatum. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Sunt, doloribus neque veritatis
+              minima laboriosam aliquid facilis et porro quibusdam ad est
+              aperiam veniam id quas eos laborum ex autem atque?
+            </p>
+          </section>
+          <h2 id="test">Adding CSS</h2>
+          <section>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              minus numquam sint architecto sit! Officia, vero dolorum?
+              Consectetur est id repellendus maiores iste, animi odio hic
+              officia molestiae libero ducimus. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Ea rerum, facilis eum ratione, vero
+              porro eos laudantium quo quibusdam quisquam perferendis aperiam
+              provident aliquam quas iure cupiditate. Fuga, voluptas labore.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusantium cumque tempore voluptatem reiciendis qui alias dolorem
+              officiis reprehenderit magnam cupiditate blanditiis culpa natus
+              pariatur nemo a aspernatur, at corrupti veritatis? Lorem ipsum
+              dolor, sit amet consectetur adipisicing elit. Consequatur quia
+              esse, doloremque consequuntur repellendus cumque, temporibus optio
+              impedit tempora molestiae deserunt magnam debitis necessitatibus
+              id accusamus ex eveniet quos voluptatum. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Sunt, doloribus neque veritatis
+              minima laboriosam aliquid facilis et porro quibusdam ad est
+              aperiam veniam id quas eos laborum ex autem atque?
+            </p>
+          </section>
+        </article>
       </article>
     </main>
     <footer></footer>
