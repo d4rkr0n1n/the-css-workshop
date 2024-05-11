@@ -1,0 +1,12 @@
+h1 {
+  font-family: "source-code-pro", monospace;
+  font-weight: 600;
+  font-style: normal;
+  max-width: fit-content;
+  margin: auto;
+}
+p {
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid black;
+}
