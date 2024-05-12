@@ -1,0 +1,35 @@
+h1 {
+  font-family: "source-code-pro", monospace;
+  font-weight: 600;
+  font-style: normal;
+  max-width: fit-content;
+  margin: auto;
+}
+p {
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid black;
+  width: 50%;
+}
+header {
+  background-color: #6d6d6d;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+body{
+  margin: auto;
+}
+ul{
+  list-style: none;
+  padding: 10px;
+  margin: 0%;
+}
+header{
+  font-family: "source-code-pro", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+div{
+  font-size: 1.5em;
+}

@@ -20,3 +20,7 @@ margin: 10px 10px 10px 10px
 margin: 10px /*top & bottom*/ 10px /*left & right*/
 margin: 10px
 ```
+
+```css
+box-sizing: border-box
+```
